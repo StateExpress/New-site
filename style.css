@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+    background-color: 
+}
+
+body {
+    height: 100%;
+    background-color: #28365f;
+}
+
+.header {
+    height: 100px;
+	text-align: right;
+    margin-top: 40px;
+    margin-right: 260px;
+}
+
+.header > a {
+    margin-right: 10px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content > p {
+    color: white;
+    font-size: 15pt;
+    margin-top: 10px;
+}
+
+.links {
+    display: block;
+    background-color: #00bcd4;
+    border-radius: 3px;
+    width: 680px;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.links > a {
+    text-decoration: none;
+    font-size: 15pt;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 60px;
+    color: white;
+    border: 15px solid #00bcd4;
+}
+
+.links > a:hover {
+    background-color: orange;
+    border: 8px solid orange;
+}
